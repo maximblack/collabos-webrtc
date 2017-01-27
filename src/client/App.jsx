@@ -27,6 +27,7 @@ const App = () => (
             history={browserHistory}
         >
             <Route path="/" component={Layout}>
+                <IndexRoute component={UserPage}/>
                 <Route
                     path="/login"
                     component={UserPage}

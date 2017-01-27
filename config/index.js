@@ -1,6 +1,7 @@
 module.exports = {
     host: 'localhost',
-    port: 8004,
+    frontendPort: 8003,
+    serverPort: 8004,
     peerPath: '/peerjs',
     peerKey: 'peerjs',
     debugPeer: true,

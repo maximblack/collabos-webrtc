@@ -4,7 +4,7 @@ import config from '../../config';
 
 const app = express();
 
-const server = app.listen(8004);
+const server = app.listen(config.serverPort);
 
 const apiRoutes = express.Router();
 

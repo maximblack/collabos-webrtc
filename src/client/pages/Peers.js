@@ -62,7 +62,7 @@ class Peers extends Component {
         // todo: transform user to compound object
         const loggedPeer = state.user;
 
-        fetch(`//${config.host}:${config.port}${config.peerPath}/${config.peerKey}/peers`)
+        fetch(`//${config.host}:${config.serverPort}${config.peerPath}/${config.peerKey}/peers`)
             .then(response => {
                 const contentType = response.headers.get('content-type');
                 if(contentType && contentType.indexOf('application/json') !== -1) {

@@ -3,6 +3,7 @@ var path = require('path');
 var webpack = require('webpack');
 var fs = require('fs');
 var paths = require('./paths');
+var config = require('./index');
 
 module.exports = {
     devtool: 'eval',
@@ -25,7 +26,7 @@ module.exports = {
         ]
     },
     devServer: {
-        port: 8083,
+        port: config.frontendPort,
         inline: true,
         hot: true,
         contentBase: paths.appPublic,

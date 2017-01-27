@@ -48,7 +48,7 @@ class User extends Component {
         // Creating new peer
         const peer = new Peer(peerId, {
             host: config.host,
-            port: config.port,
+            port: config.serverPort,
             path: config.peerPath,
             debug: config.debug && 3 || 0
         });

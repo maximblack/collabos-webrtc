@@ -3,10 +3,10 @@
 How to start the project:
 
  * Install dependencies using ``` yarn  ``` or ``` npm install ```
- * Edit ``` config/index.js ``` to set default host and port
+ * Edit ``` config/index.js ``` to set host and port
  * Start the api server using: ``` yarn server ```
  * Start the development frontend using webpack: ``` yarn dev  ```
- * Access page through your browser ``` http://host:port```
+ * Access page through your browser, default: ``` http://localhost:8003```
 
 How to use it:
 

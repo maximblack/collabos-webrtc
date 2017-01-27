@@ -167,7 +167,7 @@ class Answer extends Component {
 }
 
 Answer.propTypes = {
-    peer: React.PropTypes.string.required,
+    peer: React.PropTypes.string.isRequired,
 };
 
 Answer.contextTypes = {

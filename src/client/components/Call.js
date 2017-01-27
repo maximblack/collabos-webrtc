@@ -135,7 +135,7 @@ class Call extends Component {
 }
 
 Call.propTypes = {
-    peer: React.PropTypes.string.required,
+    peer: React.PropTypes.string.isRequired,
 };
 
 Call.contextTypes = {
